@@ -9,7 +9,7 @@ const featuredJobs = [
     company: "Facebook",
     salary: "$180,000",
     location: "Accra, Ghana",
-    logo: require("../assets/facebook.png"),
+    logo: require("../assets/images/facebook.png"),
     backgroundColor: "#E57373",
   },
   {
@@ -18,7 +18,7 @@ const featuredJobs = [
     company: "Google",
     salary: "$160,000",
     location: "Accra, Ghana",
-    logo: require("../assets/google.png"),
+    logo: require("../assets/images/google.png"),
     backgroundColor: "#C5E1A5", 
   },
   {
@@ -27,7 +27,7 @@ const featuredJobs = [
     company: "Microsoft",
     salary: "$150,000",
     location: "Accra, Ghana",
-    logo: require("../assets/microsoft.png"),
+    logo: require("../assets/images/microsoft.png"),
     backgroundColor: "#64B5F6",
   },
   {
@@ -36,7 +36,7 @@ const featuredJobs = [
     company: "Apple",
     salary: "$140,000",
     location: "Accra, Ghana",
-    logo: require("../assets/apple.png"),
+    logo: require("../assets/images/apple.png"),
     backgroundColor: "#9575CD", 
   },
   {
@@ -45,7 +45,7 @@ const featuredJobs = [
     company: "Facebook",
     salary: "$180,000",
     location: "Accra, Ghana",
-    logo: require("../assets/facebook.png"),
+    logo: require("../assets/images/facebook.png"),
     backgroundColor: "#E57373", 
   },
   {
@@ -54,7 +54,7 @@ const featuredJobs = [
     company: "Google",
     salary: "$160,000",
     location: "Accra, Ghana",
-    logo: require("../assets/google.png"),
+    logo: require("../assets/images/google.png"),
     backgroundColor: "#C5E1A5", 
   },
   {
@@ -63,7 +63,7 @@ const featuredJobs = [
     company: "Microsoft",
     salary: "$150,000",
     location: "Accra, Ghana",
-    logo: require("../assets/microsoft.png"),
+    logo: require("../assets/images/microsoft.png"),
     backgroundColor: "#64B5F6", 
   },
   {
@@ -72,7 +72,7 @@ const featuredJobs = [
     company: "Apple",
     salary: "$140,000",
     location: "Accra, Ghana",
-    logo: require("../assets/apple.png"),
+    logo: require("../assets/images/apple.png"),
     backgroundColor: "#9575CD", 
   },
 ];
@@ -84,7 +84,7 @@ const popularJobs = [
     company: "Burger King",
     salary: "$96,000/y",
     location: "Los Angeles, US",
-    logo: require("../assets/burgur.png"),
+    logo: require("../assets/images/burgur.png"),
   },
   {
     id: 2,
@@ -92,7 +92,7 @@ const popularJobs = [
     company: "Beats",
     salary: "$84,000/y",
     location: "Florida, US",
-    logo: require("../assets/beats.png"),
+    logo: require("../assets/images/beats.png"),
   },
   {
     id: 3,
@@ -100,7 +100,7 @@ const popularJobs = [
     company: "Facebook",
     salary: "$86,000/y",
     location: "Florida, US",
-    logo: require("../assets/facebook.png"),
+    logo: require("../assets/images/facebook.png"),
   },
   {
     id: 4,
@@ -108,7 +108,7 @@ const popularJobs = [
     company: "Spotify",
     salary: "$90,000/y",
     location: "New York, US",
-    logo: require("../assets/spotify.png"),
+    logo: require("../assets/images/spotify.png"),
   },
   {
     id: 5,
@@ -116,7 +116,7 @@ const popularJobs = [
     company: "Amazon",
     salary: "$120,000/y",
     location: "Seattle, US",
-    logo: require("../assets/amazon.png"),
+    logo: require("../assets/images/amazon.png"),
   },
   {
     id: 6,
@@ -124,7 +124,7 @@ const popularJobs = [
     company: "Netflix",
     salary: "$110,000/y",
     location: "San Francisco, US",
-    logo: require("../assets/netflix.png"),
+    logo: require("../assets/images/netflix.png"),
   },
   {
     id: 7,
@@ -132,7 +132,7 @@ const popularJobs = [
     company: "Airbnb",
     salary: "$100,000/y",
     location: "San Francisco, US",
-    logo: require("../assets/airbnb.png"),
+    logo: require("../assets/images/airbnb.png"),
   },
   {
     id: 8,
@@ -140,7 +140,7 @@ const popularJobs = [
     company: "Uber",
     salary: "$115,000/y",
     location: "San Francisco, US",
-    logo: require("../assets/uber.png"),
+    logo: require("../assets/images/uber.png"),
   },
 ];
 
@@ -152,7 +152,7 @@ const Header = ({ name, email }) => (
     </View>
     <Image
       style={styles.ellipseIcon}
-      source={require("../assets/Ellipse.png")}
+      source={require("../assets/images/Ellipse.png")}
     />
     <View style={styles.ovalContainer}>
       <View style={styles.oval}></View>
@@ -165,14 +165,14 @@ const SearchBar = () => (
     <View style={styles.searchInputContainer}>
       <Image
         style={styles.searchIcon}
-        source={require("../assets/search.png")}
+        source={require("../assets/images/search.png")}
       />
       <TextInput style={styles.inputField} placeholder="Search" />
     </View>
     <View style={styles.filterIconContainer}>
       <Image
         style={styles.filterIcon}
-        source={require("../assets/filter.png")}
+        source={require("../assets/images/filter.png")}
       />
     </View>
   </View>
